@@ -6,6 +6,11 @@ name: tt-engine
 description: "TikTok视频分析数据源（只读）：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "TikTok视频分析｜选题·竞品·评论洞察"
+display_name_en: "TikTok Video Analytics"
+description_zh: "TikTok 视频分析数据源（只读）：关键词搜索视频与爆款选题、博主公开作品列表、视频评论舆情；搜索支持相关度/最多点赞排序与时间窗筛选（1/7/30/90/180 天），博主作品支持主页链接、@用户名或 sec_uid 拉取并按最新/最热排序，全部以结构化 JSON 输出供 AI 直接分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 30/30/40，参数越界直接失败不改默认值。适用于爆款拆解、竞品内容策略、海外选题挖掘、KOL 筛选与评论情绪归类。"
+description_en: "Read-only TikTok analytics data source: keyword video search with trending topic discovery, creator public video lists, and video comment sentiment mining. Search supports relevance/most-liked sorting with 1/7/30/90/180-day time windows; creator videos are pulled by profile URL, @username, or sec_uid with latest/hot sorting. All results are structured JSON ready for direct AI analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/videos/comments at 30/30/40, and out-of-range parameters fail fast instead of falling back to defaults. Ideal for hit-video teardowns, competitor content strategy, overseas topic mining, KOL selection, and comment sentiment grouping."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
